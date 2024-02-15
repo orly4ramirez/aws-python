@@ -3,7 +3,7 @@ import json
 
 def lambda_handler(event, context):
     # List of AWS account IDs or aliases
-    aws_accounts = ["account1", "account2", "account3"]  # Add your account IDs or aliases here
+    aws_accounts = ["account1", "account2", "account3", "account4"]  # Add your account IDs or aliases here
 
     # Initialize an empty list to store user information
     all_users = []
