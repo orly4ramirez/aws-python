@@ -10,6 +10,7 @@ def lambda_handler(event, context):
 
     for account in aws_accounts:
         try:
+            # need to add credentials with assumerole here...
             # Create an IAM client for each account
             iam_client = boto3.client('iam', region_name='us-east-1', aws_access_key_id='YOUR_ACCESS_KEY', aws_secret_access_key='YOUR_SECRET_KEY')
 
